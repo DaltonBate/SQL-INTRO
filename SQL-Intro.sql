@@ -37,7 +37,7 @@ select * from products
 where OnSale = 1;
 
 -- find the average price of all products
-select AVG price from products;
+select AVG(price) from products;
 
 -- find all Geek Squad employees who don't have a middle initial
 select * from employees
